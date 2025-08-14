@@ -1,0 +1,62 @@
+
+.container{
+    margin-top: 90px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .content-award{
+    margin: 40px 0;
+
+}
+.content-award{
+    overflow: auto;
+}
+.container .content-award h8{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+}
+.container .content-award p{
+    margin: 10px 0;
+    line-height: 2;
+    color: aliceblue;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+}
+table, th, td {
+    border: 2px solid gainsboro;
+    border-collapse: collapse;
+    padding: 10px 10px;
+
+}
+th, td {
+    background-color: white;
+}
+
+
+.container .section-heading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.container .text-description-contact i{
+    padding: 10px;
+}
+.container .text-description-contact{
+    background-color: #cccccc;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+
+

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap"
+          rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="../image/favicon-16x16.png"/>
+    <title>NGT: Home</title></head>
+<style>
+    .container {
+        padding: 20px 0;
+        flex-wrap: wrap;
+        align-items: center;
+        background: #cccccc;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .image {
+        flex: 1 1 50%;
+        min-width: 300px;
+    }
+    .image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 15px 50px 30px;
+    }
+    .content {
+        flex: 1 1 50%;
+        padding: 40px;
+        box-sizing: border-box;
+    }
+    .content h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: #333;
+    }
+    .content p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #555;
+    }
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+        .image, .content {
+            flex: 1 1 100%;
+        }
+    }
+</style>
+<body>
+<div id="main">
+    <!--header-->
+    <div id="header">
+        <!--logo-->
+        <div class="he-logo">
+            <img src="../image/logo.png" style="width: 100px;padding-left: 40px">
+        </div>
+        <!--/logo-->
+        <ul id="nav">
+            <li class="zoom_item"><a href="index.html">Home</a></li>
+            <li class="zoom_item"><a href="../html/gallery.html">Gallery</a></li>
+            <li class="zoom_item"><a href="../html/videos.html">Videos</a></li>
+            <li class="zoom_item"><a href="../html/about.html">About</a></li>
+            <li class="zoom_item"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="header-list-social">
+            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100069370610156"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@madaoreview2509"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@ngt2509"><i class="fab fa-youtube"></i></a>
+        </div>
+        <!--        mobile-menu-->
+        <label for="nav__input" class="nav-bar-btn">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                 class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 448 512">
+                <path fill="currentColor"
+                      d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
+            </svg>
+        </label>
+        <input type="checkbox" class='nav__input' name="" id="nav__input">
+        <!--/input search-->
+        <nav class="nav__mobile">
+            <label for="nav__input" class="nav__mobile-btn">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+                     class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 352 512">
+                    <path fill="currentColor"
+                          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path>
+                </svg>
+            </label>
+            <ul id="nav__mobile-list">
+                <li ><a href="index.html">Home</a></li>
+                <li ><a href="../html/gallery.html">Gallery</a></li>
+                <li ><a href="../html/videos.html">Videos</a></li>
+                <li ><a href="../html/about.html">About</a></li>
+                <li ><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="clear"></div>
+<!--/herder-->
+<label for="nav__input" class="common">
+    <div class="slider">
+        <div class="slide-mobile">
+            <h2 class="title__mobile" style="font-family: Open Sans"></h2>
+            <div class="slider-on__mobile">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="col col-third">
+                            <img src="../image/banner_mobile_1.webp" alt="popular_song" class="member-img">
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="mySlides fade">
+                        <div class="col col-third">
+                            <img src="../image/banner_mobile_2.webp" alt="popular_song" class="member-img">
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="mySlides fade">
+                        <div class="col col-third">
+                            <img src="../image/banner_mobile_3.webp" alt="other_product" class="member-img">
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="mySlides fade">
+                        <div class="col col-third">
+                            <img src="../image/banner_mobile_4.webp" alt="popular_song" class="member-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="clear"></div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+
+            </div>
+        </div>
+    </div>
+
+    <div class=" info ">
+        <!--    begin information-->
+        <!--slide_PC-->
+        <div class="slide-PC">
+            <div class="slider-on__PC">
+
+                <div class="slideshow-container">
+
+                    <div class="mySlide fade">
+                        <img src="../image/banner_1.webp" class="member-img-PC">
+
+                    </div>
+                    <div class="mySlide fade">
+                        <img src="../image/banner_2.webp" class="member-img-PC">
+                    </div>
+                    <div class="mySlide fade">
+                        <img src="../image/banner_3.webp" class="member-img-PC">
+                    </div>
+                    <div class="mySlide fade">
+                        <img src="../image/banner_4.webp" class="member-img-PC">
+
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="clear"></div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+
+            </div>
+        </div>
+    </div>
+
+    <!--content-->
+        <div id="notify_box">
+            <i class="notify_box__icon far fa-check-circle"></i>
+            <h4>Gửi email thành công!</h4>
+            <p>Cảm ơn bạn vì đã đóng góp ý kiến.</p>
+        </div>
+        <!--  begin contact-->
+        <!--        about-->
+        <div id="content">
+            <div class="">
+                <div class="row member-list">
+                    <div class="text-description">
+                        <div class="col-full">
+                            <img src="../image/avt.jpg" alt="avt">
+                            <p>
+                                Hi, my name is Thanh. I am a digital content creator. I have 1 year of experience in creating content on the YouTube platform with the theme of Music. In addition, I am also a multi-platform freelance creator. I have experience in using AI tools to create content, including tasks such as: creating processes, scripting, creating images, creating videos, creating sounds,... Here, you can see some of my works created with AI, including many pictures and videos on different themes. Thank you for coming to admire my works.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div  style="
+            display: flex;
+            flex-wrap: wrap;
+            margin: 30px 0;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #cccccc;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 1px 0px, rgba(14, 30, 37, 0.1) 0px 2px 16px 0px;">
+                <div class="image">
+                    <img src="../image/sec_1.webp" alt="Freedom Image">
+                </div>
+                <div class="content">
+                    <h1 style=" font-family: 'Georgia', serif;">Freedom is my muse.</h1>
+                    <p style=" font-family: 'Georgia', serif;">
+                        Freedom is the heartbeat of my life, the endless horizon where my spirit wanders and my art takes flight.
+                    </p>
+                </div>
+            </div>
+            <div style="
+            display: flex;
+            flex-wrap: wrap;
+            margin: 30px 0;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #cccccc;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 1px 0px, rgba(14, 30, 37, 0.1) 0px 2px 16px 0px;">
+                <div class="content">
+                    <h1 style=" font-family: 'Georgia', serif;">Drawn to all things beautiful</h1>
+                    <p style=" font-family: 'Georgia', serif;">
+                        "Everything in this world holds its own unique beauty. I cherish those wonders, for they are the threads that weave the true value of life."
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="../image/sec_2.webp" alt="Freedom Image">
+                </div>
+            </div>
+
+            <div style="
+            display: flex;
+            flex-wrap: wrap;
+            margin: 30px 0;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #cccccc;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 1px 0px, rgba(14, 30, 37, 0.1) 0px 2px 16px 0px;">
+                <div class="image">
+                    <img src="../image/sec_3.webp" alt="Freedom Image">
+                </div>
+                <div class="content">
+                    <h1 style=" font-family: 'Georgia', serif;">Art is the endless pursuit of creation.</h1>
+                    <p style=" font-family: 'Georgia', serif;">
+                        "Art is an endless journey of creation, where every step reveals new worlds and every stroke breathes life into the unseen."
+                    </p>
+                </div>
+            </div>
+        <div id="contact">
+            <div class="content-section-contact">
+                <h2 class="section-heading">CONTACT</h2>
+                <div class="text-description-contact">
+                    <div class="col col-half form">
+                        <p><i class="fas fa-map-marker-alt"></i>Ha Noi City, VietNam</p>
+                        <p><i class="fas fa-mail-bulk"></i>Email: <a href="mailto:giangthanhnguyen556@gmail.com">giangthanhnguyen556@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" name="" placeholder="Name" required id="1"
+                                           class="form-control">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" name="" placeholder="Email" required id="2"
+                                           class="form-control">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Messenger" required id="3"
+                                           class="form-control">
+                                </div>
+                            </div>
+                            <input class="form-submit-btn mt-16" id="4" type="submit" value="SEND">
+                        </form>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!--  end contact-->
+
+    <div id="footer">
+        <div class="list-btn-social">
+            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100069370610156"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@madaoreview2509"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@ngt2509"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="copyright">Powered by <a
+                href="https://www.facebook.com/profile.php?id=100085067890658&mibextid=ZbWKwL">NGT</a></p>
+
+    </div>
+
+</label>
+</body>
+<script src="../js/script.js">
+</script>
+</html>
